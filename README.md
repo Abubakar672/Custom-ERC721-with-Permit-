@@ -1,11 +1,11 @@
 # Custom-ERC721-with-Permit-
+About The Project 
+
+ 
+
 Our ERC721 is an implementation of IERC721 with significant gas savings for minting multiple NFTs in a single transaction. 
 
 This contract will enable minting multiple NFTs for essentially the same cost of minting a single NFT. 
-
-We partnered with an external security consultant to ensure our approach is sound. 
-
-We encourage the broader community to adopt this implementation to save gas costs for their users. 
 
 CONTEXT 
 
@@ -60,3 +60,5 @@ contract ERC721main is ERC721 {
         _mint(msg.sender, quantity); 
 
     } 
+
+} 
